@@ -1,0 +1,161 @@
+@font-face {
+
+}
+
+@media screen and (max-width: 600px){
+	    		body{
+	    			background-color: red;
+	    		}
+	    		p{
+	    			font-size: 80px;
+	    		}
+	    	}
+
+
+.background {
+	background-image: url(../img/tarjeta.jpg);
+	object-fit: cover;
+	background-position: center;
+	background-size: cover;	
+}
+.bg2{
+	background-image: url(../img/tarjeta.jpg);
+	background-size: cover;	
+	width: 100%;
+
+}
+#top{
+	background-color: orange;
+}
+header{
+	background-color: #25b99a;
+}
+.card1{
+	background-color: #25b99a;
+	border-radius: 10px;
+	border: 10px;
+
+}
+.colorRed{
+	background-color: #ff531a
+;
+}
+.colorYellow{
+	background-color: #ffff00;
+}
+.colorGreen{
+	background-color: #80ff80;
+}
+.card01{
+	background-color: #ddcda4;
+	border-radius: 10px;
+	height: 300px;
+	width: 390px;
+	opacity: 10;
+}
+#plusButton {
+	float: right;
+	margin-top: 2px;
+	position: absolute;
+	border-radius: 25px;
+	margin-left: 20px;
+	background-color: #e88dda;
+	font-family: 'Crimson Text', serif;
+	color: white;
+}
+#plusInput{
+	padding: 0 60px 0 18px;
+	margin-top: 2px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.card2{
+	margin-bottom: 15px;
+	margin-top: 4px;
+	background-color: pink;
+	border-radius: 10px;
+}
+.card3{
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-color: #25b99a;
+    border-style: solid;
+}
+#deleteButton{
+	position: absolute;
+	border-radius: 25px;
+	float: left;
+	margin-left: 80px;
+	background-color: #e88dda;
+	font-family: 'Crimson Text', serif;
+	color: white;
+	
+}
+#redNotes{
+	margin-left: 300px;
+}
+.drop1{
+	font-family: 'Crimson Text', serif;
+	color: white;
+	background-color: pink;
+}
+.menu1{
+	font-family: 'Crimson Text', serif;
+	color: white;
+}
+.menu2{
+	font-family: 'Crimson Text', serif;
+	color: white;
+}
+.item1{
+	background-color: #25b99a;
+}
+.item2{
+	background-color: orange;
+}
+.menu{
+	margin-left: 900px;
+}
+
+.drop2{
+	background-color: #ddcda4;
+}
+li {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+.Notes {
+	font-family: 'Crimson Text', serif;
+	color: white;
+	margin: 5px;
+	margin-left: 150px;
+	border-color: orange;
+}
+.lines{
+	border-bottom: double;
+	color: orange;
+}
+.col-md-4{
+	margin-bottom:5px;
+}
+
+
+
+
+
+
+
+
+
+
+

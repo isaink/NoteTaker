@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"/>
+		<!-- Style CSS -->
+  		<link rel="stylesheet" type="text/css" href="css/styles.css">
+  		<!-- fonts google-->
+  		<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Oswald" rel="stylesheet">
+
+  	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<title>Note Taker</title>
+
+	</head>
+
+	<body>
+		<!-- Bootrasp full width container -->
+		<div class="container-fluid">
+		<!-- page header -->
+			<header>
+				<!-- Brand or Logo--> 
+				<nav class="navbar col header navbar-expand-lg navbar-light">
+	  			<a class="navbar-brand" href="#" style="font-family: 'Crimson Text', serif; color: white;">NOTE TAKER</a>
+				 	<!-- Menu dropdown -->
+				 	<div class="dropdown menu">
+	  					<button class="btn btn-secondary dropdown-toggle drop1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="dropdown-menu menu1" aria-labelledby="dropdownMenuButton">
+						  <a class="dropdown-item item1" href="pages/savedNotes.html">Saved Notes</a>
+						  <a class="dropdown-item item1" href="index.html">New Notes</a>
+						</div>
+					</div>
+	  				<div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div> 
+				</nav>
+			</header>
+		</div>
+
+		<div class="container-fluid background" style="height: 500px ">
+			<br>
+			<br>
+			<br>
+		<div class="row" >
+
+			<!-- 1st card  -->
+			<div class="col-sm-6"> 
+				<div class="card card1">
+					<br>
+					<div class="card card2">
+						<div class="col">
+						<!-- Input plus Notes -->
+							<input type="text" placeholder="Enter new notes" id="plusInput">
+							<!-- Button to Add in the List-->
+							<button id="plusButton"> ADD </button>
+							<!-- Button to delete in the List-->
+							<button id="deleteButton">DELETE</button>
+							<!-- Important Colors-->
+							<form name="colorForm">
+								<input type="radio" name = "Importants" id="redNotes" value="red"> Red
+								<input type="radio" name="Importants" id="yellowNotes" value="yellow"> Yellow
+								<input type="radio" name="Importants" id="greenNotes" value="green"> Green
+							</form>
+						</div>
+							<br>
+							<br>
+						<div onclick="dataNotes" class=" card3" size="3">
+							<!-- List-->
+							<ol id="list"> </ol> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- + Options  -->
+			<div class="col-sm-6">
+				<!-- Button Dropdown to see more Options and save Notes-->
+	 	 	
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
